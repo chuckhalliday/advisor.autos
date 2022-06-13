@@ -2,18 +2,15 @@
   "name": "advisor.autos",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": ">-14.0.0",
-    "npm": ">-1.22.0",
-    "yarn": "please-use-npm"
-  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "husky intall"
   },
   "dependencies": {
+    "husky": "^8.0.1",
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0"
